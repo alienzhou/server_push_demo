@@ -1,3 +1,6 @@
+> some samples abount server push tech
+> e.g. Polling, COMET, SSE, WebSocket
+
 # How to start?
 
 first,
