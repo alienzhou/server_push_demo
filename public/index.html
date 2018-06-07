@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        main > section {
+            width: 30%;
+            height: 300px;
+            margin-bottom: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    <title>server push</title>
+</head>
+<body>
+    <main>
+        <section>
+            <iframe src="/polling"></iframe>
+        </section>
+        <section>
+            <iframe src="/iframe"></iframe>
+        </section>
+        <section>
+            <iframe src="/long_polling"></iframe>
+        </section>
+        <section>
+            <iframe src="/server_sent_event"></iframe>
+        </section>
+        <section>
+            <iframe src="/websocket"></iframe>
+        </section>
+    </main>
+</body>
+</html>
