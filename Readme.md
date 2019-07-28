@@ -3,7 +3,7 @@
 
 # How to start?
 
-first,
+Firstly,
 
 ```
 cd server
@@ -13,7 +13,7 @@ npm i
 npm start
 ```
 
-then, visit http://127.0.0.1:8080/ & http://127.0.0.1:8080/post
+Then visit http://127.0.0.1:8080/ & http://127.0.0.1:8080/post in your browser
 
 - On http://127.0.0.1:8080/post you can post some messages.
 - Then on http://127.0.0.1:8080/ you will recieve these messages posted just now.
